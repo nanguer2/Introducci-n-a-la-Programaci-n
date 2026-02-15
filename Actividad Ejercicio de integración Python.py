@@ -17,7 +17,7 @@ socio_mas_temprano = ""       # Nombre del paciente que se atiende más temprano
 total_pacientes = 0           # Contador total de pacientes procesados
 
 # Ciclo para ingresar datos de 23 pacientes.
-for i in range(2):
+for i in range(23):
     # Solicitar y convertir a mayúsculas el nombre del paciente.
     nombre = input(" \nIngrese el nombre del paciente: \t").upper()
     
@@ -103,4 +103,5 @@ print("Arreglo de caries: \t", porcentaje_caries, "%")
 print("Ortodoncia: \t", porcentaje_ortodoncia, "%")
 print("Extracción: \t", porcentaje_extraccion, "%")
 print(" \nPaciente con mayor número de socio: \t", nombre_mayor_socio, "Tratamiento:", tratamiento_mayor_socio)
+
 print("Socio que se atiende más temprano: \t", socio_mas_temprano, "Número de socio: ", numero_temprano)
