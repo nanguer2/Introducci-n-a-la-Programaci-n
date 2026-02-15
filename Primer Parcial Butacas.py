@@ -4,7 +4,7 @@ total_vendidas = 0
 sala_menor = 0
 
 # Procesamos las 15 salas en un solo bucle
-for i in range(2):
+for i in range(15):
   num_sala = int(input("Ingrese el numero de sala: \t"))
   while num_sala < 0:
     num_sala = int(input("Error. Ingrese el numero de sala: \t"))
@@ -56,4 +56,5 @@ else:
 
 promedio_vendidas = (total_vendidas * 100) / total_butacas
 print(f"El promedio de butacas vendidas de todo el cine es: {promedio_vendidas:.1f}%\n")
+
 print(f"El numero de sala con mayor capacidad de butacas vendidas es: {sala_mayor}\n")
