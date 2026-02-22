@@ -35,4 +35,4 @@ El proyecto está organizado según las diferentes instancias evaluativas:
 
 1. **Clonar el proyecto:**
    ```bash
-   git clone [https://github.com/nanguer2-debug/Introducci-n-a-la-Programaci-n.git](https://github.com/nanguer2-debug/Introducci-n-a-la-Programaci-n.git)
+   git clone [https://github.com/nanguer2/Introducci-n-a-la-Programaci-n.git](https://github.com/nanguer2/Introducci-n-a-la-Programaci-n.git)
